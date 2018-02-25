@@ -17,3 +17,4 @@ foreach v of varlist dollarsobligated currentcontractvalue ultimatecontractvalue
 
 compress
 save "C:\Dropbox\data\contracting-usa-government-fedspending-dot-org\contracts-random-500-obs.dta", replace
+export delimited using "C:\Dropbox\data\contracting-usa-government-fedspending-dot-org\contracts-random-500-obs.csv", replace
